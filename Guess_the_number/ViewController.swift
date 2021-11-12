@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     
     var target = Int.random(in: 1...10)
     var error_count = 0
+    var new = 0
     
     
     @IBAction func Confirm(sender: UIButton){
